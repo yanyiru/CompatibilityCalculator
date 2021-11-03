@@ -10,7 +10,7 @@ public class StudentList
     {
         getTotalSimilarity(studToComp);
     }
-    public double getTotalSimilarity(int i)
+    public int getTotalSimilarity(int i)
     {
         ArrayList<Double> percentageList = new ArrayList<Double>();
         for (int j = 0; j<studentList.size();j++)
@@ -29,9 +29,16 @@ public class StudentList
                 
                 percentageList.add(avgSim);
             }
-
         }
-        return 0.0;
+        double highestSim = 0;
+        /*for (int k = 0; k<percentageList.size();k++)
+        {
+            if (highestSim < percentageList.get(k))
+            {
+                highestSim 
+            }
+        }*/
+        return 0;
     }
     
     public double getNameSimilarity(String studI, String studJ)
