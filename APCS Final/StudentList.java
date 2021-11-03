@@ -12,6 +12,7 @@ public class StudentList
     }
     public double getTotalSimilarity(int i)
     {
+        //test comment - daphne
         ArrayList<Double> percentageList = new ArrayList<Double>();
         for (int j = 0; j<studentList.size();j++)
         {
