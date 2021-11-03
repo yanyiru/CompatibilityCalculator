@@ -31,16 +31,18 @@ public class StudentList
             }
         }
         double highestSim = 0;
-        /*for (int k = 0; k<percentageList.size();k++)
+        int highestIndex = 0;
+        for (int k = 0; k<percentageList.size();k++)
         {
             if (highestSim < percentageList.get(k))
             {
-                highestSim 
+                highestSim = percentageList.get(k);
+                highestIndex = k;
             }
-        }*/
-        return 0;
+        }
+        return highestIndex;
     }
-    
+    //similarity = 100-(Math.abs((value1-value2)/value2)*100)
     public double getNameSimilarity(String studI, String studJ)
     {
         return 0.0;
