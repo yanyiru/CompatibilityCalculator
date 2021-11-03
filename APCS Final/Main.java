@@ -5,7 +5,8 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		Scanner s = new Scanner(System.in);
+		//edit
+	    Scanner s = new Scanner(System.in);
 		
 		ArrayList<Student> studentList = new ArrayList<Student>();
 

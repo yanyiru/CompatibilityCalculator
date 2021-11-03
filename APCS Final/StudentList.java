@@ -12,7 +12,7 @@ public class StudentList
     }
     public double getTotalSimilarity(int i)
     {
-        ArrayList<Double> percentageList;
+        ArrayList<Double> percentageList = new ArrayList<Double>();
         for (int j = 0; j<studentList.size();j++)
         {
             if (i != j)
